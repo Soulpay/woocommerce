@@ -1,6 +1,6 @@
 # Módulo Soulpay de Woocomerce
 
-Emita cobranças via cartão de crédito e boleto de forma integrada com o seu e-commerce. Integre com a Soulpay e Ofereça aos Seus Clientes a Melhor e Mais Segura API de Pagamentos e Cobranças Recorrentes.
+Modo de usar:
 
 1 - Vá até a aba Plugins do Wordpress 
 
@@ -35,12 +35,20 @@ Emita cobranças via cartão de crédito e boleto de forma integrada com o seu e
 ![image](https://user-images.githubusercontent.com/59617774/118146239-c5f4c400-b3e4-11eb-8e82-fa16f3d166e7.png)
 
 Habilitar/Desabilitar: Clique no checkbox para habilitar o pagamento com Cartão;
+
 Título: Nome que será exibido no checkout;
+
 Ambiente: Selecione, se está no modo de teste ou de produção;
+
 Descrição: Do meio de pagamento;
+
 E-mail: Usado na integração;
+
 Senha: Usada na integração;
+
 Hash: Utilizado na integração;
+
 Dias para vencimento do Boleto: Número de dias para vencimento do boleto;
+
 Instrução: De pagamento que aparecerá no Boleto
 
