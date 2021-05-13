@@ -79,4 +79,4 @@ Número de parcelas sem juros: Onde o juros não será aplicado;
 
 Valor mínimo por parcela: Por parcela.
 
-===Agora com tudo configurado você já pode começar a transacionar pela SoulPay.
+### Agora com tudo configurado você já pode começar a transacionar pela SoulPay.
