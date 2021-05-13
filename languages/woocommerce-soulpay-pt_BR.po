@@ -1,0 +1,387 @@
+# Copyright (C) 2021 Emerson Abdias
+# This file is distributed under the same license as the WooCommerce SoulPay! plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce SoulPay! 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/modulo-soulpay-"
+"woocommerce\n"
+"POT-Creation-Date: 2021-04-29T19:36:15-03:00\n"
+"PO-Revision-Date: 2021-04-29 19:37-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Domain: woocommerce-soulpay\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce SoulPay!"
+msgstr "WooCommerce SoulPay!"
+
+#. Description of the plugin
+msgid "Plugin for SoulPay!"
+msgstr "Plugin for SoulPay!"
+
+#. Author of the plugin
+msgid "Emerson Abdias"
+msgstr "Emerson Abdias"
+
+#. Author URI of the plugin
+msgid "emerson_abedias@hotmail.com"
+msgstr "emerson_abedias@hotmail.com"
+
+#: includes/admin/views/html-missing-curl.php:8
+#: includes/admin/views/html-missing-woocommerce.php:8
+msgid "Woocommerce SoulPay"
+msgstr "Woocommerce SoulPay"
+
+#: includes/admin/views/html-missing-curl.php:8
+msgid "needs to have installed on your server the CURL lib to works!"
+msgstr "Necessário que tenha o CURL instalado no Servidor para funcionar!"
+
+#: includes/admin/views/html-missing-woocommerce.php:8
+msgid "depends on the last version of Woocommerce to work!"
+msgstr "Necessário ter o Woocommerce instalado para funcionar!"
+
+#: includes/class-wc-soulpay-bs-api.php:27
+#: includes/class-wc-soulpay-cc-api.php:28
+#: includes/class-wc-soulpay-cc-api.php:134
+msgid "Please type the valid document number."
+msgstr "Digite um CPF/CNPJ valido."
+
+#: includes/class-wc-soulpay-bs-api.php:58
+#: includes/class-wc-soulpay-cc-api.php:75
+#: includes/class-wc-soulpay-cc-api.php:216
+msgid "Soulpay Invalid Credentials"
+msgstr "Soulpay Credenciais Invalidos"
+
+#: includes/class-wc-soulpay-bs-api.php:70
+msgid "Purchase failed, check your bank slip details"
+msgstr "Falha no pagamento, verifique os dados do boleto"
+
+#: includes/class-wc-soulpay-bs-api.php:80
+msgid "Awaiting bank slip payment"
+msgstr "Aguardando pagamento do boleto"
+
+#: includes/class-wc-soulpay-bs-api.php:145
+msgid "Bank slip expired"
+msgstr "Boleto expirado"
+
+#: includes/class-wc-soulpay-bs-gateway.php:32
+msgid "SoulPay - BankSlip"
+msgstr "SoulPay - Boleto"
+
+#: includes/class-wc-soulpay-bs-gateway.php:33
+msgid "Accept Payments by BankSlip using the SoulPay"
+msgstr "Aceita pagamentos com boletos pela SoulPay"
+
+#: includes/class-wc-soulpay-bs-gateway.php:88
+#: includes/class-wc-soulpay-cc-gateway.php:169
+msgid "Enable/Disable"
+msgstr "Habilitar/Desabilitar"
+
+#: includes/class-wc-soulpay-bs-gateway.php:90
+msgid "Enable SoulPay BankSlip"
+msgstr "Habilitar Boleto"
+
+#: includes/class-wc-soulpay-bs-gateway.php:94
+#: includes/class-wc-soulpay-cc-gateway.php:175
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-wc-soulpay-bs-gateway.php:96
+#: includes/class-wc-soulpay-bs-gateway.php:123
+#: includes/class-wc-soulpay-cc-gateway.php:177
+#: includes/class-wc-soulpay-cc-gateway.php:203
+msgid "Displayed at checkout."
+msgstr "Exibido na finalização da compra."
+
+#: includes/class-wc-soulpay-bs-gateway.php:98
+msgid "BankSlip"
+msgstr "Boleto"
+
+#: includes/class-wc-soulpay-bs-gateway.php:102
+#: includes/class-wc-soulpay-cc-gateway.php:183
+msgid "Integration Settings"
+msgstr "Configurações da Integração"
+
+#: includes/class-wc-soulpay-bs-gateway.php:109
+#: includes/class-wc-soulpay-cc-gateway.php:189
+msgid "Environment"
+msgstr "Ambiente"
+
+#: includes/class-wc-soulpay-bs-gateway.php:112
+#: includes/class-wc-soulpay-cc-gateway.php:192
+msgid "Select the environment type (test or production)."
+msgstr "Seleciona o ambiente (teste ou produção)"
+
+#: includes/class-wc-soulpay-bs-gateway.php:116
+#: includes/class-wc-soulpay-cc-gateway.php:196
+msgid "Test"
+msgstr "Teste"
+
+#: includes/class-wc-soulpay-bs-gateway.php:117
+#: includes/class-wc-soulpay-cc-gateway.php:197
+msgid "Production"
+msgstr "Produção"
+
+#: includes/class-wc-soulpay-bs-gateway.php:121
+#: includes/class-wc-soulpay-cc-gateway.php:201
+msgid "Description"
+msgstr "Descrição"
+
+#: includes/class-wc-soulpay-bs-gateway.php:125
+msgid "Pay your order with BankSlip."
+msgstr "Pague sua fatura com Boleto."
+
+#: includes/class-wc-soulpay-bs-gateway.php:128
+#: includes/class-wc-soulpay-cc-gateway.php:208
+msgid "Email"
+msgstr "Email"
+
+#: includes/class-wc-soulpay-bs-gateway.php:130
+#: includes/class-wc-soulpay-cc-gateway.php:210
+msgid "SoulPay email Login"
+msgstr "SoulPay email do Login"
+
+#: includes/class-wc-soulpay-bs-gateway.php:134
+#: includes/class-wc-soulpay-cc-gateway.php:214
+msgid "Password"
+msgstr "Senha"
+
+#: includes/class-wc-soulpay-bs-gateway.php:136
+#: includes/class-wc-soulpay-cc-gateway.php:216
+msgid "SoulPay password Login."
+msgstr "SoulPay senha do Login."
+
+#: includes/class-wc-soulpay-bs-gateway.php:140
+#: includes/class-wc-soulpay-cc-gateway.php:220
+msgid "Hash"
+msgstr "Hash"
+
+#: includes/class-wc-soulpay-bs-gateway.php:142
+#: includes/class-wc-soulpay-cc-gateway.php:222
+msgid "SoulPay hash Login"
+msgstr "Soulpay hash Login"
+
+#: includes/class-wc-soulpay-bs-gateway.php:147
+msgid "Bank Slip Options"
+msgstr "Configurações do Boleto"
+
+#: includes/class-wc-soulpay-bs-gateway.php:153
+msgid "Days to Expiration Date"
+msgstr "Dias para o vencimento do Boleto"
+
+#: includes/class-wc-soulpay-bs-gateway.php:155
+msgid "Number of days for expiration"
+msgstr "Numero de dias para o vencimento do Boleto"
+
+#: includes/class-wc-soulpay-bs-gateway.php:161
+msgid "Instructions"
+msgstr "Instruções"
+
+#: includes/class-wc-soulpay-bs-gateway.php:163
+msgid "Instruction for pay the Bank Slip"
+msgstr "Instruções para o pagamento do Boleto"
+
+#: includes/class-wc-soulpay-bs-gateway.php:165
+msgid "PAYABLE AT ANY BANK UNTIL THE MATURITY"
+msgstr "PAGÁVEL EM QUALQUER BANCO ATE A DATA DE VENCIMENTO"
+
+#: includes/class-wc-soulpay-cc-api.php:48
+msgid "Fee installment"
+msgstr "Taxa de parcelamento"
+
+#: includes/class-wc-soulpay-cc-api.php:91
+#: includes/class-wc-soulpay-cc-api.php:232
+msgid "Purchase failed, check card details"
+msgstr "Falha no pagamento, verifique os dados do cartão"
+
+#: includes/class-wc-soulpay-cc-api.php:102
+#: includes/class-wc-soulpay-cc-api.php:251
+msgid "Awaiting payment response from emitter"
+msgstr "Aguardando resposta do pagamento"
+
+#: includes/class-wc-soulpay-cc-api.php:365
+msgid "Payment Refused"
+msgstr "Pagamento recusado"
+
+#: includes/class-wc-soulpay-cc-gateway.php:41
+msgid "SoulPay - Credit Card"
+msgstr "SoulPay - Cartão de Crédito"
+
+#: includes/class-wc-soulpay-cc-gateway.php:42
+msgid "Accept Payments by Credit Card using the SoulPay"
+msgstr "Aceita pagamentos com cartão de crédito pela SoulPay"
+
+#: includes/class-wc-soulpay-cc-gateway.php:104
+msgid "%sx de R$ %s - Total: %s "
+msgstr "%sx de R$ %s - Total: %s "
+
+#: includes/class-wc-soulpay-cc-gateway.php:171
+msgid "Enable SoulPay Credit Card"
+msgstr "Habilitar Cartão de Crédito"
+
+#: includes/class-wc-soulpay-cc-gateway.php:179
+msgid "Credit Card"
+msgstr "Cartão de Crédito"
+
+#: includes/class-wc-soulpay-cc-gateway.php:205
+msgid "Pay your order with a credit card."
+msgstr "Pague sua fatura com cartão de crédito."
+
+#: includes/class-wc-soulpay-cc-gateway.php:227
+msgid "Payment Options"
+msgstr "Configurações do Pagamento"
+
+#: includes/class-wc-soulpay-cc-gateway.php:233
+msgid "Maximum number of installments"
+msgstr "Número máximo de parcelas"
+
+#: includes/class-wc-soulpay-cc-gateway.php:235
+msgid "Maximum number of installments for orders in your store."
+msgstr "Numero máximo de parcelas para sua loja."
+
+#: includes/class-wc-soulpay-cc-gateway.php:255
+msgid "Installments Default"
+msgstr "Parcela Padrão"
+
+#: includes/class-wc-soulpay-cc-gateway.php:257
+msgid "Installment Selected default."
+msgstr "Parcela selecionada por padrão."
+
+#: includes/class-wc-soulpay-cc-gateway.php:277
+msgid "Interest Rate (%)"
+msgstr "Taxa de parcelamento (%)"
+
+#: includes/class-wc-soulpay-cc-gateway.php:279
+msgid ""
+"Percentage of interest that will be charged to the customer in the "
+"installment where there is interest rate to be charged."
+msgstr "Porcentagem de juros sobre as parcelas do cliente."
+
+#: includes/class-wc-soulpay-cc-gateway.php:284
+msgid "Number of installments without Interest Rate"
+msgstr "Numero de parcelas sem juros"
+
+#: includes/class-wc-soulpay-cc-gateway.php:286
+msgid "Indicate the number of public without Interest Rate."
+msgstr "Indica o numero máximo de parcelas sem juros."
+
+#: includes/class-wc-soulpay-cc-gateway.php:291
+msgid "None"
+msgstr "Nada"
+
+#: includes/class-wc-soulpay-cc-gateway.php:307
+msgid "Minimum value per installments"
+msgstr "Valor minimo por parcela"
+
+#: includes/class-wc-soulpay-cc-gateway.php:309
+msgid "Minimum value per installments, cannot be less than 1."
+msgstr "Valor mínimo por parcela, não pode ser menos que 1."
+
+#: templates/admin/html-notices-util.php:12
+msgid "soulpay! CRON"
+msgstr "soulpay! CRON"
+
+#: templates/admin/html-notices-util.php:15 woocommerce-soulpay.php:138
+msgid "Click here"
+msgstr "Clique aqui"
+
+#: templates/admin/html-notices-util.php:16
+msgid "Force the execution of the CRONS soulpay!"
+msgstr "Forçar execução das CRONS soulpay!"
+
+#: templates/bs/bs-payment-instructions.php:10
+#: templates/bs/emails/instructions.php:10
+msgid "Bank slip successfully generated"
+msgstr "Boleto gerado com sucesso"
+
+#: templates/bs/bs-payment-instructions.php:14
+#: templates/bs/emails/instructions.php:14
+msgid "Open Bank slip"
+msgstr "Abrir Boleto"
+
+#: templates/bs/bs-payment-instructions.php:22
+#: templates/bs/emails/instructions.php:22
+msgid "Bank slip Code"
+msgstr "Código do Boleto"
+
+#: templates/bs/bs-payment-instructions.php:36
+#: templates/bs/emails/instructions.php:36
+msgid "Payment amount: R$"
+msgstr "Valor do pagamento: R$"
+
+#: templates/bs/emails/instructions.php:6
+#: templates/cc/emails/instructions.php:6
+msgid "Payment"
+msgstr "Pagamento"
+
+#: templates/bs/form/payment.php:10
+msgid "BankSlip Document"
+msgstr "Boleto CPF/CNPJ"
+
+#: templates/cc/emails/instructions.php:7
+msgid "Payment successfully: %s in %s."
+msgstr "Pagamento bem sucedido: %s in %s."
+
+#: templates/cc/form/payment.php:23
+msgid "Card Name"
+msgstr "Nome presente no cartão"
+
+#: templates/cc/form/payment.php:27
+msgid "Card document"
+msgstr "CPF/CNPJ do titular do cartão"
+
+#: templates/cc/form/payment.php:32
+msgid "Expiry (MM/YYYY)"
+msgstr "Data de Vencimento (MM/AAAA)"
+
+#: templates/cc/form/payment.php:33
+msgid "MM / YYYY"
+msgstr "MM/AAAA"
+
+#: templates/cc/form/payment.php:56
+msgid "Fee of %s %% per month *"
+msgstr "Taxa de %s %% por mes *"
+
+#: templates/cc/payment-instructions.php:11
+msgid "<span>Payment successfully: %s in %s.</span>"
+msgstr "<span>Pagamento bem sucedido: %s em %s.</span>"
+
+#: templates/cc/payment-instructions.php:13
+msgid "<span>Payment in manual review: %s in %s. </span>"
+msgstr "<span>Pagamento em revisão manual: %s em %s. </span>"
+
+#: templates/cc/payment-instructions.php:14
+msgid "</br><span>You will receive a confirmation email shortly.</span>"
+msgstr "</br><span>Você recebera o email de confirmação em breve.</span>"
+
+#: woocommerce-soulpay.php:102
+msgid "Credit Card Settings"
+msgstr "Configurações Cartão de Crédito"
+
+#: woocommerce-soulpay.php:103
+msgid "Bank Slip Settings"
+msgstr "Configurações Boleto"
+
+#: woocommerce-soulpay.php:137
+msgid "soulpay! cron's max"
+msgstr "soulpay! cron's max"
+
+#: woocommerce-soulpay.php:139
+msgid "to return to shop."
+msgstr "retornar."
+
+#: woocommerce-soulpay.php:173
+msgid "Only one subscription allowed per cart!"
+msgstr "Apenas um assinatura por compra!"
+
+#~ msgid "Clique aqui"
+#~ msgstr "Clique aqui"
+
+#~ msgid "Juros de %s %% ao mes *"
+#~ msgstr "Interest of %s %% per month *"
