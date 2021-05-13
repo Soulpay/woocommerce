@@ -30,7 +30,8 @@ Modo de usar:
 
 3 - Configuração do Boleto
 
-![image](https://user-images.githubusercontent.com/59617774/118146182-bb3a2f00-b3e4-11eb-8afc-fd04def9e8ff.png)
+![image](https://user-images.githubusercontent.com/59617774/118146668-369be080-b3e5-11eb-8b56-7b49359ab90c.png)
+
 
 ![image](https://user-images.githubusercontent.com/59617774/118146239-c5f4c400-b3e4-11eb-8e82-fa16f3d166e7.png)
 
@@ -52,3 +53,30 @@ Dias para vencimento do Boleto: Número de dias para vencimento do boleto;
 
 Instrução: De pagamento que aparecerá no Boleto
 
+![image](https://user-images.githubusercontent.com/59617774/118146784-53381880-b3e5-11eb-8b87-a87a7cc0ec1f.png)
+
+Habilitar/Desabilitar: Clique no checkbox para habilitar o pagamento com Cartão;
+
+Título: Nome que será exibido no checkout;
+
+Ambiente: Selecione se está no modo de teste ou de produção;
+
+Descrição: Descrição do meio de pagamento;
+
+E-mail: Usado na integração;
+
+Senha: Senha usada na integração;
+
+Hash: Utilizado na integração
+
+Número máximo de parcelas: Disponível no checkout;
+
+Parcelas Padrão: Serão selecionadas por padrão no checkout;
+
+Taxa de Parcelamento: Por parcela no pagamento;
+
+Número de parcelas sem juros: Onde o juros não será aplicado;
+
+Valor mínimo por parcela: Por parcela.
+
+Agora com tudo configurado você já pode começar a transacionar pela SoulPay.
