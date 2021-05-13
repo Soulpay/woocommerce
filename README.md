@@ -26,10 +26,9 @@ Modo de usar:
 
 1 - Nas configurações do Woocommerce vá para aba de “Pagamentos” la estará disponível as opções de pagamento pela SoulPay
 
-2 - Configuração do Boleto
+2 - Configuração de Cartão de Crédito
 
-3 - Configuração de Cartão de Crédito
-
+3 - Configuração do Boleto
 
 
 ![image](https://user-images.githubusercontent.com/59617774/118146668-369be080-b3e5-11eb-8b56-7b49359ab90c.png)
